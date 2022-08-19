@@ -55,6 +55,10 @@ body{
     font-family: 'Hammersmith One', sans-serif;
 font-family: 'Viga', sans-serif;
 background-color: rgb(243, 232, 232);
+background-image: url("/fhs/images/circle.png");
+background-repeat: no-repeat;
+background-size: 75%;
+background-position: 50% 10%;
 }
 
 h1{
