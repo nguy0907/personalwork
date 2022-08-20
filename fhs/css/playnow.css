@@ -89,3 +89,7 @@ select{
     width: 200px;
     margin-bottom: 3rem;
 }
+
+#year{
+	width: 60px;
+}
