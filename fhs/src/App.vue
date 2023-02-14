@@ -5,7 +5,16 @@ import HelloWorld from './components/HelloWorld.vue'
 </script>
 
 <template>
-     <h1>FHS Ultimate</h1>
+  <header>
+        <h1>FHS Ultimate</h1> 
+  </header>
+
+<main>
+  <button>Start</button>
+  <br> <br>
+  <button>Option</button>
+</main>
+
 </template>
 
 <style scoped>
