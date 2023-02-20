@@ -1,18 +1,36 @@
 <template>
-<head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>FHS Menu</title>
-  </head>
 
-  <body>
-    <h1>FHS</h1>
+<br> <br>
+<div class="row">
 
-    <button>Menu</button>
-  </body>
+<div class="col">
+    <h1 class="display-4">FHS</h1>
+</div>
+
+</div>
+
+<br> <br>
+
+     <div class="menu">
+      <button>Start</button>
+      <br> <br>
+      <button>Settings</button>
+      <br> <br>
+      <button>Tutorial</button>
+      <br> <br>
+      <button>Exit</button>
+</div>
+
 </template>
 
 <script></script>
 
-<style></style>
+<style>
+h1{
+  text-align: center;
+}
+
+.menu{
+  text-align: center;
+}
+</style>
