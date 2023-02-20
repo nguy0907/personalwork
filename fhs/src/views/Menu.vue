@@ -8,6 +8,8 @@
 
   <body>
     <h1>FHS</h1>
+
+    <button>Menu</button>
   </body>
 </template>
 
