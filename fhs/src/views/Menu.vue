@@ -18,7 +18,9 @@
       </router-link>
 
       <br> <br>
+      <router-link :to="'/Settings/'">
       <button>Settings</button>
+      </router-link>
       <br> <br>
       <button>Tutorial</button>
       <br> <br>
