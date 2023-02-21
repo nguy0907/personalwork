@@ -12,7 +12,11 @@
 <br> <br>
 
      <div class="menu">
+      
+      <router-link :to="'/GameMode/'">
       <button>Start</button>
+      </router-link>
+
       <br> <br>
       <button>Settings</button>
       <br> <br>

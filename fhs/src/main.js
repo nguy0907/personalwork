@@ -4,10 +4,15 @@ import {createRouter, createWebHashHistory} from 'vue-router'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
 import Menu from './views/Menu.vue'
+import Gamemode from './views/Gamemode.vue'
 
 const routes = [{
  path: '/',
  component: Menu
+},
+{
+    path: '/Gamemode/',
+    component: Gamemode
 }]
 
 const router = createRouter({
