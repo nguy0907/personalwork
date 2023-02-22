@@ -9,7 +9,6 @@
     
     </div>
     
-    <br> <br>
     
          <div class="menu">
           
@@ -17,7 +16,9 @@
           </router-link>
     
           <br> <br>
-          <button>Quick Game</button>
+          <router-link :to="'/Gamemode/QuickGame'">
+      <button>Quick Game</button>
+      </router-link>
           <br> <br>
           <button>Dynasty Mode</button>
           <br> <br>
