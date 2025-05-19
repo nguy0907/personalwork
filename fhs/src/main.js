@@ -7,6 +7,11 @@ import Menu from './views/Menu.vue'
 import Gamemode from './views/Gamemode.vue'
 import Settings from './views/Settings.vue'
 import QuickGame from './views/gamemodeMenu/QuickGame.vue'
+import Controls from './views/SettingsMenu/Controls.vue'
+
+//Data
+const $AHL = document.getElementById('leaguesAway')
+const $AHLTeams = ["Ontario Reigns","San Diego Gulls"]
 
 const routes = [{
  path: '/',
@@ -23,6 +28,9 @@ const routes = [{
 {
 path: '/Gamemode/QuickGame',
 component: QuickGame
+},{
+    path: '/SettingsMenu/Controls',
+    component: Controls
 }]
 
 const router = createRouter({

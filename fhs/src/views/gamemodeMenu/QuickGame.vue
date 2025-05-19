@@ -8,6 +8,7 @@
     </div>
     </div>
 
+<!-- Away -->
     <!-- Team selections -->
     <br> <br>
 <div class="container text-center">
@@ -51,15 +52,25 @@
           </select>
 
           <!-- Year Options -->
-          <select>
-            <option>
-              Current Year
-            </option>
+          <select v-model="awayRosterDate">
+            <option> Current Roster</option>
+            <option>Past Roster</option>
           </select>
       
+      <!-- League options -->
+          <select class="league" v-model="leaguesAway">
+            <option disabled value =""> Leagues </option>
+            <option>NHL</option>
+            <option>AHL</option>
+            <option>CHL</option>
+            <option>ECHL</option>
+            <option>KHL</option>
+          </select>
         </form>
         
-        <p>Away: {{ selectedAwayTeam }} </p>
+        <p>Away: {{ selectedAwayTeam }} {{ leaguesAway }}</p>
+
+        <!-- Home -->
         <form class="home col">
           <select class="teams" v-model="selectedHomeTeam">
             <option disabled value ="">Select a team </option>
@@ -100,20 +111,25 @@
 
           <!-- Year Options -->
         
-          <select>
-            <option>
-              Current Year
-            </option>
+          <select v-model="homeRosterDate">
+            <option> Current Roster</option>
+            <option>Past Roster</option>
           </select>
        
-
+  <!-- League options -->
+  <select class="league" v-model="leaguesHome">
+            <option disabled value =""> Leagues </option>
+            <option>NHL</option>
+            <option>AHL</option>
+            <option>CHL</option>
+            <option>ECHL</option>
+            <option>KHL</option>
+          </select>
         </form>
 
-        <p>Home: {{ selectedHomeTeam }} </p>
+        <p>Home: {{ selectedHomeTeam }} {{ leaguesHome }}</p>
 </div>
 </div>
-    
-    <br> <br>
     
          <div class="menu">
           
@@ -122,8 +138,10 @@
     
           <br> <br>
        
-          <router-link :to="'/'">
-          <button :to="'/'" >Back</button>
+<button>Start</button>
+<br> <br>
+          <router-link :to="'/GameMode/'">
+          <button :to="'/GameMode/'">Back</button>
           </router-link>
     </div>
   </template>
@@ -133,7 +151,13 @@ export default{
   data: function(){
     return{
       selectedAwayTeam: "",
-      selectedHomeTeam: ""
+      selectedHomeTeam: "",
+      homeRosterDate: "",
+      awayRosterDate: "",
+      pastYearHome: "",
+      pastYearAway: "",
+      leaguesHome: "",
+      leaguesAway: ""
     }
   }
 }
@@ -141,7 +165,5 @@ export default{
   </script>
   
   <style>
-    .teams{
     
-    }
   </style>
