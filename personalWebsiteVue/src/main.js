@@ -12,7 +12,7 @@ const routes = [{
     component: landingPage
 },
 {
-    path: '/homepage/',
+    path: '/homepage',
     component: homepage
 }]
 

@@ -1,7 +1,14 @@
 <template>
-  <div>
-    <router-link to="/">
-<router-view></router-view>
-    </router-link>
-  </div>
+ 
+<div class="container">
+  <router-link to="/" ></router-link>
+  <router-view>
+
+  </router-view>
+</div>
 </template>
+
+<script></script>
+
+<style>
+</style>
