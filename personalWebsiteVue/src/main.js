@@ -6,6 +6,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 
 import landingPage from './views/landingPage.vue'
 import homepage from './views/homepage.vue'
+import aboutpage from './views/aboutpage.vue'
 
 const routes = [{
     path: '/',
@@ -14,6 +15,10 @@ const routes = [{
 {
     path: '/homepage',
     component: homepage
+},
+{
+    path: '/aboutpage',
+    component: aboutpage
 }]
 
 const router  = createRouter({
