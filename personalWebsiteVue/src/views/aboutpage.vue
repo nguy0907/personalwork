@@ -2,26 +2,32 @@
     <div id="Menu">
            <div>
             <router-link :to="'/homepage'">
-                <a>Home</a>
+                <a id="pageLink">Home</a>
             </router-link>
         </div>
+        <br>
         <div>
             <router-link :to="'/aboutpage'">
-                <a>About</a>
+                <a id="pageLink">About</a>
             </router-link>
         </div>
+        <br>
         <div>
-            <a href="/">Service</a>
+              <router-link :to="'/services'">
+                <a id="pageLink">Service</a>
+            </router-link>
         </div>
-
+        <br>
         <div>
-            <a href="/">Contact</a>
+            <router-link :to="'/contact'">
+                <a id="pageLink">Contact</a>
+            </router-link>
         </div>
 
     </div>
 
     
-<div >
+<div>
     <h2>About</h2>
 
     <p>I recently completed the Computer Programming course at Algonquin College.

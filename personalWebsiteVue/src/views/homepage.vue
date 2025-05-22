@@ -1,17 +1,23 @@
 <template>
 
+
     <div id="Menu">
-        <div>
-            <router-link :to="'/aboutpage'">
-                <a>About</a>
+        <div id="option">
+            <router-link :to="'/aboutpage'" >
+                <a id="pageLink">About</a>
             </router-link>
         </div>
+        <br>
         <div>
-            <a href="/">Service</a>
+            <router-link :to="'/services'">
+                <a id="pageLink">Service</a>
+            </router-link>
         </div>
-
-        <div>
-            <a href="/">Contact</a>
+        <br>
+          <div>
+            <router-link :to="'/contact'">
+                <a id="pageLink">Contact</a>
+            </router-link>
         </div>
 
     </div>
@@ -20,7 +26,10 @@
 
     <h2>Welcome</h2>
 
-    <p>Welcome to my website! My name is Rich, and I am a programmer. </p>
+    <p>Welcome to my website! My name is Rich, and I am a programmer. If you would like to know more
+        about me, then go to the about page and learn more. </p>
+
+        <p>On this website, you will learn who I am, what work I provide for you, and how you can contact me.</p>
 
     <img src="https://picsum.photos/200/300?random=1">
 
@@ -34,10 +43,21 @@
 </template>
 
 <style>
-    a {
-        text-decoration: none;
-        color: black;
+
+    h2{
+    font-size: larger;
+    text-align: center;
+    margin-top:1rem;
+    margin-bottom: 1rem;
     }
 
+    p{
+    margin-bottom: 1rem;    
+    }
+
+    p, h2{
+     font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+     line-height: normal;   
+    }
 
 </style>

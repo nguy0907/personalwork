@@ -18,7 +18,6 @@
 <style>
 
 h1{
-  color: black;
   margin-top:-20rem;
   margin-bottom: 3rem;
 
