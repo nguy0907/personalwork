@@ -1,6 +1,5 @@
 <template>
    
-   
     <h1>Welcome to the RichRealDeal Website!</h1>
 
 <div id="container">
@@ -18,9 +17,9 @@
 <style>
 
 h1{
-  margin-top:-20rem;
+  margin-top:2rem;
   margin-bottom: 3rem;
-
+font-size: larger;
 
 }
 

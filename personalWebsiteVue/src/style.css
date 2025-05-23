@@ -134,12 +134,15 @@ table {
     border-spacing: 0;
 }
 
+/* Start of CSS */
+
 a{
   color: white;
 }
 
 html{
    font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+   text-align: center;
 }
 
     #Menu{
@@ -154,4 +157,16 @@ html{
       color: white;
     }
 
-    
+    img{
+     margin-bottom: 1rem;
+    }
+
+    p{
+      margin: auto;
+      width: 90%;
+
+    }
+
+    .card{
+       margin: auto;
+    }

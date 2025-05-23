@@ -1,4 +1,5 @@
 <template>
+   
     <div id="Menu">
            <div>
             <router-link :to="'/homepage'">
@@ -73,6 +74,9 @@
 <script></script>
 
 <style>
+img{
+    text-align: center;
+}
 a{
     text-decoration: none;
        color: black;
@@ -80,10 +84,21 @@ a{
 
 ul li{
     text-align: left;
+    width: 90%;
+ 
+}
+li{
+       list-style:outside;
+       margin-bottom:1rem;
+        line-height: normal; 
 }
 
+section{
+    margin-left:2rem;
+}
 p{
  text-align: left;    
+ 
 }
 
 </style>

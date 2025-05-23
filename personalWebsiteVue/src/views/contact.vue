@@ -1,4 +1,5 @@
 <template>
+ 
  <div id="Menu">
            <div>
             <router-link :to="'/homepage'">
@@ -34,31 +35,31 @@
 <div id="form">
  <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">First Name</label>
-  <br>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  <br> <br> 
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="John">
 </div>
 <br>
    <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Last Name</label>
-  <br>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  <br><br> 
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Doe">
 </div>
 <br>
    <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Email Address</label>
-  <br>
+  <br><br> 
   <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
 </div>
 <br>
    <div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
-  <br>
-  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+  <br><br> 
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="6136196969">
 </div>
 <br>
 <div class="mb-3">
   <label for="exampleFormControlTextarea1" class="form-label">Comments</label>
-  <br>
+  <br><br> 
   <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 </div>
 <br>

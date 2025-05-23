@@ -64,4 +64,7 @@
 <script></script>
 
 <style>
+p{
+    line-height: normal; 
+}
 </style>
