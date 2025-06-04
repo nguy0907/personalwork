@@ -1,24 +1,24 @@
 <template>
      <div id="Menu">
-           <div>
+           <div id="option">
             <router-link :to="'/homepage'">
                 <a id="pageLink">Home</a>
             </router-link>
         </div>
         <br>
-        <div>
+        <div id="option">
             <router-link :to="'/aboutpage'">
                 <a id="pageLink">About</a>
             </router-link>
         </div>
         <br>
-        <div>
+        <div id="option">
               <router-link :to="'/services'">
                 <a id="pageLink">Service</a>
             </router-link>
         </div>
         <br>
-        <div>
+        <div id="option">
             <router-link :to="'/contact'">
                 <a id="pageLink">Contact</a>
             </router-link>
@@ -66,5 +66,19 @@
 <style>
 p{
     line-height: normal; 
+}
+
+@media screen and (min-width: 768px) {
+    p{
+        text-align: center;
+    }
+
+    #Menu{
+display: flex;
+text-align: center;
+    }
+    #option{
+        margin: auto;
+    }
 }
 </style>

@@ -8,13 +8,13 @@
             </router-link>
         </div>
         <br>
-        <div>
+        <div id="option">
             <router-link :to="'/services'">
                 <a id="pageLink">Service</a>
             </router-link>
         </div>
         <br>
-          <div>
+          <div id="option">
             <router-link :to="'/contact'">
                 <a id="pageLink">Contact</a>
             </router-link>
@@ -33,6 +33,10 @@
 
     <img src="https://picsum.photos/200/300?random=1">
 
+    <p>If you like my content, feel free to subscribe to get notified!</p>
+    
+    <button>Subscribe</button>
+        <br><br>
     <p>Hope you enjoy your stay! </p>
 
     <br>
@@ -60,4 +64,17 @@
      line-height: normal;   
     }
 
+@media screen and (min-width: 768px) {
+    p{
+        text-align: center;
+    }
+
+    #Menu{
+display: flex;
+text-align: center;
+    }
+    #option{
+        margin: auto;
+    }
+}
 </style>
