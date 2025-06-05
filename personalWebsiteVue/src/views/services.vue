@@ -27,9 +27,9 @@
     </div>
 
 
-    <div>
+    
          <h2>Services</h2>
-
+<div id="cards">
          <div class="card" style="width: 18rem;">
   <img src="https://picsum.photos/200/300?random=1" class="card-img-top" alt="...">
   <div class="card-body">
@@ -55,10 +55,11 @@
   </div>
 </div>
 
-<footer>
-&copy; RichRealDeal 2025    
-</footer>
+
     </div>
+ <footer>
+&copy; RichRealDeal 2025    
+</footer>   
 </template>
 
 <script></script>
@@ -79,6 +80,10 @@ text-align: center;
     }
     #option{
         margin: auto;
+    }
+
+    #cards{
+        display: flex;
     }
 }
 </style>

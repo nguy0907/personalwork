@@ -89,12 +89,10 @@ ul li{
 li{
        list-style:outside;
        margin-bottom:1rem;
+       margin-left:2rem;
         line-height: normal; 
 }
 
-section{
-    margin-left:2rem;
-}
 p{
  text-align: left;    
  
