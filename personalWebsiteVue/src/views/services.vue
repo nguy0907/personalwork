@@ -40,7 +40,7 @@
          <div class="card" style="width: 18rem;">
   <img src="https://picsum.photos/200/300?random=1" class="card-img-top" alt="...">
   <div class="card-body">
-    <p class="card-text">Coding applications using Java as my main language. Will also consider using Python
+    <p class="card-text">Coding applications using Java as my main language. Will consider using Python
    , because it is a language that I learned on my own.  </p>
   </div>
 </div>

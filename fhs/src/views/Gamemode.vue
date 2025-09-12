@@ -20,7 +20,9 @@
       <button>Quick Game</button>
       </router-link>
           <br> <br>
-          <button>Dynasty Mode</button>
+          <router-link :to="'/Gamemode/expansionMode'">
+           <button>Expansion Mode</button> 
+          </router-link> 
           <br> <br>
           <button>Custom Games</button>
           <br> <br>

@@ -7,7 +7,8 @@ import Menu from './views/Menu.vue'
 import Gamemode from './views/Gamemode.vue'
 import Settings from './views/Settings.vue'
 import QuickGame from './views/gamemodeMenu/QuickGame.vue'
-import Controls from './views/SettingsMenu/Controls.vue'
+import expansionMode from './views/gamemodeMenu/expansionMode.vue'
+
 
 //Data
 const $AHL = document.getElementById('leaguesAway')
@@ -28,9 +29,10 @@ const routes = [{
 {
 path: '/Gamemode/QuickGame',
 component: QuickGame
-},{
-    path: '/SettingsMenu/Controls',
-    component: Controls
+},
+{
+    path: '/Gamemode/expansionMode',
+component: expansionMode
 }]
 
 const router = createRouter({

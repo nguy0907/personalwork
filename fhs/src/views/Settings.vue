@@ -15,11 +15,6 @@
           <router-link :to="'/GameMode/' + Menu">
           </router-link>
     
-          <br> <br>
-
-          <router-link :to="'/SettingsMenu/Controls'">
-          <button>Controls</button>
-          </router-link>
 
           <br> <br>
           <button>Audio</button>
