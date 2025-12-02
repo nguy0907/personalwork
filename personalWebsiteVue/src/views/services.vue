@@ -17,6 +17,12 @@
                 <a id="pageLink">Service</a>
             </router-link>
         </div>
+             <br>
+             <div id="option">
+            <router-link :to="'/portfolio'">
+                <a id="pageLink">Portfolio</a>
+            </router-link>
+        </div>
         <br>
         <div id="option">
             <router-link :to="'/contact'">

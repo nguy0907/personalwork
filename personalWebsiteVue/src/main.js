@@ -9,6 +9,7 @@ import homepage from './views/homepage.vue'
 import aboutpage from './views/aboutpage.vue'
 import services from './views/services.vue'
 import contact from './views/contact.vue'
+import portfolio from './views/portfolio.vue'
 
 const routes = [{
     path: '/',
@@ -29,6 +30,10 @@ const routes = [{
 {
     path: '/contact',
     component: contact
+},
+{
+    path:'/portfolio',
+    component: portfolio
 }]
 
 const router  = createRouter({

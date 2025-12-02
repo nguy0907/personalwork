@@ -162,6 +162,10 @@ export default{
   }
 }
 
+if (leaguesHome = "AHL"){
+text = ' <p>Aeeeee</p>';
+}
+
   </script>
   
   <style>
