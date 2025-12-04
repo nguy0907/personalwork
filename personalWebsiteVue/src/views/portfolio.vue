@@ -69,6 +69,18 @@
                 </p>
             </div>
         </div>
+
+            <br>
+        <div class="card" style="width: 18rem;">
+            <img src="/images/android.PNG" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h3>Android FHM Game Recreation</h3>
+                <br>
+                <p class="card-text">It is a redesign from an App that I use all the time, HLM25,
+                    it inspired me to want to create programs with Android Studio.
+                </p>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -82,4 +94,22 @@
         width: 100%;
         min-width: auto;
     }
+
+   @media screen and (min-width: 768px) {
+    p{
+        text-align: center;
+    }
+
+    #Menu{
+display: flex;
+text-align: center;
+    }
+    #option{
+        margin: auto;
+    }
+
+    #cards{
+        display: flex;
+    }
+}
 </style>

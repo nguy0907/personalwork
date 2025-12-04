@@ -38,7 +38,6 @@
 
         <p>On this website, you will learn who I am, what work I provide for you, and how you can contact me.</p>
 
-    <img src="https://picsum.photos/200/300?random=1">
 
     <p>If you like my content, feel free to subscribe to get notified!</p>
     
