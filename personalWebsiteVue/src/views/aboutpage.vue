@@ -71,6 +71,7 @@
 
 </div>
 
+
 <footer>
 &copy; RichRealDeal 2025    
 </footer>
@@ -105,7 +106,11 @@ p{
 
 .goal{
     width: auto;
- 
+ margin-bottom: 2rem;
+}
+
+.skill{
+    margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 768px) {

@@ -52,7 +52,7 @@
 </div>
 
 
-         <div class="card" style="width: 18rem;">
+         <div class="card" style="width: 18rem; margin-bottom:5rem;">
   <img src="https://picsum.photos/200/300?random=1" class="card-img-top" alt="...">
   <div class="card-body">
     <p class="card-text">Create applications using Android Studio. A software where you design and testing it 
@@ -63,6 +63,8 @@
 
 
     </div>
+
+    
  <footer>
 &copy; RichRealDeal 2025    
 </footer>   
@@ -75,6 +77,9 @@ p{
     line-height: normal; 
 }
 
+button{
+    margin-bottom:5rem;
+}
 @media screen and (min-width: 768px) {
     p{
         text-align: center;

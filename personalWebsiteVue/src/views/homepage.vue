@@ -45,7 +45,6 @@
         <br><br>
     <p>Hope you enjoy your stay! </p>
 
-    <br>
 
     <footer>
         &copy; RichRealDeal 2025
@@ -70,6 +69,19 @@
      line-height: normal;   
     }
 
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    
+        padding-top:1em;
+        padding-bottom: 1em;
+        background-color: black;
+        color: white;
+        
+    }
+
 @media screen and (min-width: 768px) {
     p{
         text-align: center;
@@ -82,5 +94,6 @@ text-align: center;
     #option{
         margin: auto;
     }
+
 }
 </style>

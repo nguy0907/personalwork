@@ -71,7 +71,7 @@
         </div>
 
             <br>
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 18rem; margin-bottom:5rem;">
             <img src="/images/android.PNG" class="card-img-top" alt="...">
             <div class="card-body">
                 <h3>Android FHM Game Recreation</h3>
@@ -82,6 +82,10 @@
             </div>
         </div>
     </div>
+
+     <footer>
+        &copy; RichRealDeal 2025
+    </footer>
 </template>
 
 <script>
@@ -94,6 +98,7 @@
         width: 100%;
         min-width: auto;
     }
+
 
    @media screen and (min-width: 768px) {
     p{
