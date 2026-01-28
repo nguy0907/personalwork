@@ -52,17 +52,19 @@
 </div>
 
 
-         <div class="card" style="width: 18rem; margin-bottom:5rem;">
+         <div class="card" style="width: 18rem;">
   <img src="https://picsum.photos/200/300?random=1" class="card-img-top" alt="...">
   <div class="card-body">
-    <p class="card-text">Create applications using Android Studio. A software where you design and testing it 
+    <p class="card-text3" >Create applications using Android Studio. A software where you design and testing it 
         through different phone screens.
     </p>
+
   </div>
 </div>
 
-
     </div>
+
+    <button>Click to view more</button>
 
     
  <footer>
@@ -95,6 +97,11 @@ text-align: center;
 
     #cards{
         display: flex;
+     
+    }
+
+    #card-text3{
+        margin-bottom: 0;
     }
 }
 </style>
