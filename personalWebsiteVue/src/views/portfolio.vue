@@ -32,14 +32,16 @@
 
     </div>
 
-    <div>
+   
         <h2>Portfolio</h2>
 
         <p>Here are some of my best work! Some of my work are personal work or past assignments that I
             am proud of.
         </p>
 
-        <div class="card" style="width: 18rem;">
+        <div id="cards">
+
+<div class="card card-1" style="width: 18rem;">
             <img src="/images/landingPage.PNG" class="card-img-top" alt="...">
             <div class="card-body">
                 <h3>Landing Page Recreation</h3>
@@ -49,7 +51,7 @@
             </div>
         </div>
         <br>
-        <div class="card" style="width: 18rem;">
+        <div class="card card-2" style="width: 18rem;">
             <img src="/images/oldwebsite.PNG" class="card-img-top" alt="...">
             <div class="card-body">
                 <h3>2021 Website from Interactive Media Design</h3>
@@ -59,7 +61,7 @@
             </div>
         </div>
         <br>
-        <div class="card" style="width: 18rem;">
+        <div class="card card-3" style="width: 18rem;">
             <img src="/images/python.PNG" class="card-img-top" alt="...">
             <div class="card-body">
                 <h3>Python Self-Learn Project</h3>
@@ -71,7 +73,7 @@
         </div>
 
             <br>
-        <div class="card" style="width: 18rem; margin-bottom:5rem;">
+        <div class="card card-4" style="width: 18rem; margin-bottom:5rem;">
             <img src="/images/android.PNG" class="card-img-top" alt="...">
             <div class="card-body">
                 <h3>Android FHM Game Recreation</h3>
@@ -81,7 +83,9 @@
                 </p>
             </div>
         </div>
-    </div>
+        </div>
+        
+   
 
      <footer>
         &copy; RichRealDeal 2025
@@ -114,7 +118,24 @@ text-align: center;
     }
 
     #cards{
-        display: flex;
+        display: grid;
+         grid-template-columns: auto auto;
+    grid-template-rows: auto  auto ;
+    }
+
+    .card-2{
+grid-column: 2;
+grid-row: 1;
+    }
+
+        .card-3{
+            grid-row: 2;
+grid-column: 1;
+    }
+
+            .card-4{
+            grid-row: 2;
+grid-column: 2;
     }
 }
 </style>

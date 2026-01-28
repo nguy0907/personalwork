@@ -67,7 +67,7 @@
   
 </section>
 
-        <p>I am opened to learning different language :D</p>
+        <p style="margin-bottom:5rem;">I am opened to learning different language :D</p>
 
 </div>
 
