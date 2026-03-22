@@ -35,7 +35,7 @@
 
     
          <h2>Services</h2>
-<div id="cards">
+<div id="Servicecards">
          <div class="card" style="width: 18rem;">
   <img src="https://picsum.photos/200/300?random=1" class="card-img-top" alt="...">
   <div class="card-body">
@@ -95,7 +95,7 @@ text-align: center;
         margin: auto;
     }
 
-    #cards{
+    #Servicecards{
         display: flex;
      
     }
